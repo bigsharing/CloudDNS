@@ -3,7 +3,7 @@ export LANG=zh_CN.UTF-8
 auth_email="XXXXXXX@gmail.com"    #你的CloudFlare注册账户邮箱
 auth_key="XXXXXXXXxxxx"   #你的CloudFlare账户key,位置在域名概述页面点击右下角获取api key。
 zone_name="xxxx.eu.org"     #你的主域名
-record_name="00011c"    #自动更新的二级域名前缀,例如cloudflare的cdn用00011c，gcore的cdn用00011g，后面是数字，程序会自动添加。二级域名需要已经在域名管理网站配置完成，视频教程可以参考：https://www.youtube.com/channel/UCfSvDIQ8D_Zz62oAd5mcDDg
+record_name="00011c"    #自动更新的二级域名前缀,例如cloudflare的cdn用00011c，gcore的cdn用00011g，后面是数字，程序会自动添加。二级域名需要已经在域名管理网站配置完成，视频教程可以参考：
 record_count=5 #二级域名个数，例如配置5个，则域名分别是00011c1、00011c2、00011c3、00011c4、00011c5. 最后的域名格式是：00011c1.xxx.eu.org  后面的信息均不需要修改，让他自动运行就好了。
 
 
